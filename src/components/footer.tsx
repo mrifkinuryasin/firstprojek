@@ -16,16 +16,16 @@ const footer: React.FC = () => {
           </div>
         </div>
         <div className="footer1">
-          <h1>back to pages</h1>
+          <h1>Back to pages</h1>
           <div className="linkcepat">
-            <a href="">home</a>
-            <a href="">home</a>
-            <a href="">home</a>
-            <a href="">home</a>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Sevices</a>
+            <a href="">Contacts</a>
           </div>
         </div>
         <div className="footer1">
-          <h1>back to pages</h1>
+          <h1>Back to pages</h1>
           <div className="linkcepat">
             <a href="">home</a>
             <a href="">home</a>

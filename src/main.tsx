@@ -4,11 +4,15 @@ import './public/css/style.css'
 import Nav from './components/nav.tsx'
 import Hero from './components/hero.tsx'
 import Footer from './components/footer.tsx'
+import About from './components/about.tsx'
+import Skills from './components/skills.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Nav />
     <Hero />
+    <About />
+    <Skills />
     <Footer />
 
   </StrictMode>,
