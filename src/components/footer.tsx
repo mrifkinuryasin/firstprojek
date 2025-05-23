@@ -20,7 +20,7 @@ const footer: React.FC = () => {
           <div className="linkcepat">
             <a href="">Home</a>
             <a href="">About</a>
-            <a href="">Sevices</a>
+            <a href="">Skills</a>
             <a href="">Contacts</a>
           </div>
         </div>
