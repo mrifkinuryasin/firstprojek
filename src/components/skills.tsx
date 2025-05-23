@@ -1,4 +1,3 @@
-// components/Skills.tsx
 import React from "react";
 import '../public/css/style.css';
 import { FaCode, FaMobileAlt, FaShieldAlt, FaBug } from "react-icons/fa";
@@ -26,7 +25,7 @@ const skills = [
     icon: <FaBug />,
     title: "Vulnerability Assessment",
     description: "Audit keamanan dan pemindaian kerentanan aplikasi secara menyeluruh.",
-    tags: ["Kali Linux", "Nmap", "Burp Suite", "Wireshark"],
+    tags: ["Nikto", "Nmap", "Burp Suite", "OpenVAS"],
   },
 ];
 
