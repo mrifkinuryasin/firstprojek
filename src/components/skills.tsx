@@ -1,6 +1,8 @@
-import React from "react";
+// import React, { useEffect } from 'react';
+// import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../public/css/style.css';
-import { FaCode, FaMobileAlt, FaShieldAlt, FaBug } from "react-icons/fa";
+import { FaCode, FaMobileAlt, FaShieldAlt, FaBug } from 'react-icons/fa';
 
 const skills = [
   {
@@ -29,20 +31,36 @@ const skills = [
   },
 ];
 
-function Skills() {
+const Skills: React.FC = () => {
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 1000,
+  //     once: true,
+  //     mirror: false,
+  //   });
+  // }, []);
+
   return (
-    <section className="skills-section" id="skills">
+    <section className="skills-section" id="skills" data-aos="fade-up" data-aos-delay="100">
       <div className="container">
-        <h2 className="section-title">My Skills</h2>
+        <h2 className="section-title" data-aos="fade-right" data-aos-delay="200">
+          My Skills
+        </h2>
         <div className="skills-grid">
           {skills.map((skill, index) => (
-            <div className="skill-card" key={index}>
-              <div className="icon">{skill.icon}</div>
-              <h3 className="skill-title">{skill.title}</h3>
-              <p className="description">{skill.description}</p>
-              <div className="tags">
+            <div className="skill-card" key={index} data-aos="zoom-in" data-aos-delay={300 + index * 100}>
+              <div className="icon" data-aos="fade-up" data-aos-delay={400 + index * 100}>
+                {skill.icon}
+              </div>
+              <h3 className="skill-title" data-aos="fade-up" data-aos-delay={500 + index * 100}>
+                {skill.title}
+              </h3>
+              <p className="description" data-aos="fade-up" data-aos-delay={600 + index * 100}>
+                {skill.description}
+              </p>
+              <div className="tags" data-aos="fade-up" data-aos-delay={700 + index * 100}>
                 {skill.tags.map((tag, i) => (
-                  <span className="tag" key={i}>
+                  <span className="tag" key={i} data-aos="zoom-in" data-aos-delay={800 + index * 100 + i * 50}>
                     {tag}
                   </span>
                 ))}
@@ -53,6 +71,6 @@ function Skills() {
       </div>
     </section>
   );
-}
+};
 
 export default Skills;
