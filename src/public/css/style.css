@@ -234,7 +234,10 @@ footer {
     flex-direction: column;
     gap: 0.4rem;
 }
-
+.linkcepat p span{
+   color: #0077b5;
+   
+}
 .linkcepat a {
     color: #94a3b8;
     text-decoration: none;
@@ -322,9 +325,10 @@ footer {
 
 .skill-card {
     background: linear-gradient(to bottom right, #0f172a, #1e293b);
-    border: 1px solid rgba(129, 140, 248, 0.3);
-    border-radius: 20px;
-    padding: 25px;
+    border: 2px solid rgba(129, 140, 248, 0.3);
+    border-radius: 25px;
+    padding: 20px;
+    width: 100%;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease;
 }
@@ -340,7 +344,7 @@ footer {
 }
 
 .skill-title {
-    font-size: 1.25rem;
+    font-size: 2rem;
     color: #7400e9;
     margin-bottom: 10px;
 }
@@ -600,4 +604,97 @@ footer {
     .tag {
         font-size: 0.75rem;
     }
+}
+
+/* ============= Portfolio =============  */
+
+
+.portfolio-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  
+}
+
+.main-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #00e5ff;
+  
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.custom-button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  border: none;
+}
+
+.custom-button.default {
+  background: #00e5ff;
+  color: black;
+}
+
+.custom-button.outline {
+  background: transparent;
+  border: 2px solid #00e5ff;
+  color: #00e5ff;
+}
+
+.custom-card {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: transform 0.3s, background 0.3s;
+  cursor: pointer;
+}
+
+.custom-card:hover {
+  background: #2a2a2a;
+  transform: scale(1.02);
+}
+
+.custom-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #00e5ff;
+}
+
+.card-description {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.card-meta {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.certificate-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #444;
 }

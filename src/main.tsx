@@ -6,12 +6,15 @@ import Footer from './components/footer.tsx'
 import About from './components/about.tsx'
 import Skills from './components/skills.tsx'
 import Contact from './components/contact.tsx'
+import Portofolio from './components/portofolio.tsx'
+
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Hero />
     <About />
     <Skills />
+    <Portofolio/>
     <Contact />
     <Footer />
 

@@ -2,6 +2,7 @@
 // import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../public/css/style.css';
+import {Mail, Phone} from 'lucide-react'
 
 const Footer: React.FC = () => {
   // useEffect(() => {
@@ -59,15 +60,7 @@ const Footer: React.FC = () => {
             <p  data-aos="fade-up" data-aos-delay="750">Mobile App Dev</p>
           </div>
         </div>
-        <div className="footer1" data-aos="fade-up" data-aos-delay="500">
-          <h1 data-aos="fade-right" data-aos-delay="600">Contact</h1>
-          <div className="linkcepat">
-            <p  data-aos="fade-up" data-aos-delay="700">home</p>
-            <p  data-aos="fade-up" data-aos-delay="750">home</p>
-            <p  data-aos="fade-up" data-aos-delay="800">home</p>
-            <p  data-aos="fade-up" data-aos-delay="850">home</p>
-          </div>
-        </div>
+        
       </div>
 
       <div className="footer-bawah"  data-aos-delay="600">

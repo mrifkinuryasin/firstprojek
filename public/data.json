@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Sistem Monitoring Kolam Cerdas",
+      "description": "Aplikasi Flutter dengan ESP32 untuk memantau suhu, DO, pH, dan level air secara real-time.",
+      "tools": ["Flutter", "ESP32", "MQTT", "Firebase"],
+      "date": "2024-03-01"
+    },
+    {
+      "id": 2,
+      "title": "Website Profil Mahasiswa",
+      "description": "Website personal menggunakan React yang menampilkan profil, portofolio, dan kontak.",
+      "tools": ["React", "Vite", "TailwindCSS"],
+      "date": "2023-11-10"
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "image": "/images/stc-1.png"
+    },
+    {
+      "id": 2,
+      "image": "/certificates/flutterbootcamp.jpg"
+    }
+  ]
+}
